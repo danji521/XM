@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>加入我们</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/jiaru.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="js/jquery-1.12.3.min.js"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        // 750 -> 1rem = 50px   大于750 -> 1rem = 100px
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        .shouye{
+            border-bottom: 2px solid #0086b3;
+        }
+    </style>
+</head>
+<body>
+<!--导航开始-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <img src="image/logo.png" alt=""/>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+            <ul>
+                <li >首页</li>
+                <li>医生上门</li>
+                <li>医护陪诊</li>
+                <li>企业服务</li>
+                <li>关于医小护</li>
+                <li class="shouye">加入我们</li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 top">
+            <span class="span1">会员注册</span><span class="span2">或</span><span class="span3">立即登陆</span>
+        </div>
+    </div>
+</div>
+<!--导航结束-->
+
+<!--banner轮播开始-->
+<div class="swiper-container swiper-container1">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide3"><img src="image/bj.png" alt=""/></div>
+        <div class="swiper-slide slide3"><img src="image/bj1.png" alt=""/></div>
+        <div class="swiper-slide slide1"><img src="image/4-bj.png" alt=""/></div>
+        <div class="swiper-slide slide2"><img src="image/05bj.png" alt=""/></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+</div>
+<!--banner轮播结束-->
+
+<!--第一个内容区开始-->
+
+<!--第一个内容区结束-->
+<div class="main1">
+    <div class="main1-top">
+        <p class="p0">让我们一起改变世界</p>
+        <p class="p1">
+            医小护从诞生起，就相信科技的力量终将改变医疗。我们热爱创新，<br/>
+            希望创建一个这样的医疗服务：它更加专业、前沿、简单，能让人们看病<br/>
+            不需要等待而且享受云端无处不在的健康管理。而为了实现这个理想，
+            我们需要您的加入！
+        </p>
+    </div>
+    <div class="main1-top2">
+        <div class="main1-top2-div1">我是医生</div>
+        <div>我是护士</div>
+        <p class="p2">
+            声明：您所填写的信息e陪诊公司会严格保密，只用于报名审核使用，不会对外泄密
+        </p>
+    </div>
+    <div class="main1-top3 block">
+        <div class="main1-top3-center">
+
+
+
+            <form class="form-horizontal">
+                <p class="p5">填写个人信息</p>
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">姓名：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control"  placeholder="name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-3 control-label" style="font-weight: normal">性别：</label>
+                    <div class="col-sm-2">
+                        <div class="radio" id="inputEmail3">
+                            <label>
+                                <input type="radio" name="sex" checked> 男
+                            </label>
+                            <label>
+                                <input type="radio" name="sex"> 女
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">身份证号：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">学历：</label>
+                    <div class="col-sm-4">
+                        <select class="form-control">
+                            <option>请选择</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">电话：</label>
+                    <div class="col-sm-4">
+                        <input type="tel" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">工作地点：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control">
+                            <option>请选择</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control">
+                            <option>请选择</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control">
+                            <option>请选择</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">毕业院校：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">微信号：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+                <hr/>
+
+                <p class="p5">合作相关信息</p>
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">护士职照：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">护士级别：</label>
+                    <div class="col-sm-4">
+                        <select class="form-control">
+                            <option>请选择</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">护龄：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">紧急联系人：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">联系人电话：</label>
+                    <div class="col-sm-4">
+                        <input type="tel" class="form-control" >
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">工作经历：</label>
+                    <div class="col-sm-4">
+                        <textarea cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">医院熟知情况：</label>
+                    <div class="col-sm-4">
+                        <textarea cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <label class="col-sm-3 control-label" style="font-weight: normal">兴趣及特长：</label>
+                    <div class="col-sm-4">
+                        <textarea cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="checkbox col-sm-11">
+                    <label>
+                        <input type="checkbox"> 阅读并同意
+                    </label><span class="span4">《医疗陪护人员免费声明》</span>
+                </div>
+
+                <button type="button" class="btn btn-info btn1">提交报名表</button>
+            </form>
+        </div>
+    </div>
+    <div class="main1-top3">
+        我是护士，不需要注册！！！
+    </div>
+</div>
+<br/>
+<!--第五块内容开始-->
+<div class="main5">
+    <div class="main5-center">
+        <br/>
+        <br/>
+        <br/>
+        <p class="p30">医小护，医生上门和医护陪诊第一平台</p>
+        <p class="p31">如果您需要预约医护陪诊，请马上和我们联系</p>
+        <p class="p32">医小护官方微信：yixiaohu120</p>
+        <div>
+            <img src="image/二维码.png" alt=""/>
+        </div>
+    </div>
+</div>
+<!--第五块内容结束-->
+
+<!--第六块内容开始-->
+<div class="main6">
+    <div class="main6-left">
+        <p class="p16">您也可以直接拨打医小护的就医预约专线</p>
+        <p class="p17">400-114-5120</p>
+        <p class="p18">7X24小时服务</p>
+        <button type="button" class="btn btn-warning p34" data-toggle="modal" data-target="#exampleModal"><span class="p33">在线客服</span></button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">请留言给客服</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">姓名:</label>
+                                <input type="text" class="form-control" id="recipient-name" placeholder="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">留言内容:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">提交</button>
+                        <button type="button" class="btn btn-primary">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="main6-right">
+        <img src="image/ren.png" alt="" data-toggle="tooltip" data-placement="left" title="快来联系我啊！"/>
+    </div>
+</div>
+<!--第六块内容结束-->
+
+<!--第七块内容开始-->
+<div class="main7">
+    <div class="main7-top">
+        <div class="main7-left"></div>
+        <div class="main7-center">
+            <div>
+                <ul>
+                    <li><p>关于我们</p></li>
+                    <li>公司介绍</li>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                    <li>黄金优势</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>健康导航</p></li>
+                    <li>医生上门</li>
+                    <li>医护陪诊</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>友情链接</p></li>
+                    <li>多宠乐购</li>
+                    <li>康知网</li>
+                    <li>爱晒网</li>
+                    <li>趣婚</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>关注我们</p></li>
+                    <li>腾讯微博</li>
+                    <li>新浪微博</li>
+                </ul>
+            </div>
+            <div>
+                <p class="p19">400-114-5120</p>
+                <p class="p20">周一至周日 8:00-18:00 <br/>（仅收市话费）</p>
+                <button type="button" class="btn btn-success p35">24小时在线客服</button>
+            </div>
+        </div>
+        <div class="main7-right"></div>
+    </div>
+    <div class="main7-bottom">
+        <div>
+            <ul>
+                <li>医小护合作网站：</li>
+                <li>百度</li>
+                <li>百度贴吧</li>
+                <li>康知网</li>
+                <li>康贝妈妈</li>
+                <li>妇婴吧</li>
+                <li>怀孕吧</li>
+            </ul>
+        </div>
+        <span>©2015 北京康知天下科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备11032486号</span>
+    </div>
+</div>
+<!--第七块内容结束-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container1', {
+        loop: true,
+        autoplay:3000,
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+
+    });
+    $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);// Button that triggered the modal
+        // Extract info from data-* attributes
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this);
+        modal.find('.modal-title').text('请留言给客服' )
+    });
+
+    //    $('h3').click(function(){
+    //        if($(this).siblings().is(':visible')){
+    //            $(this).siblings().slideUp();
+    //            $(this).find('span').html('>')
+    //        }else{
+    //            $(this).parent().siblings().find('p').slideUp();
+    //            $(this).siblings().slideDown();
+    //            $(this).parent().siblings().find('span').html('>');
+    //            $(this).find('span').html('v')
+    //
+    //        }
+    //    })
+
+    $('.span4').click(function(){
+        if($(this).siblings('.p73').is(':visible')){
+            $(this).siblings('.p73').slideUp();
+        }else{
+            $(this).siblings('.p73').slideDown();
+        }
+
+    });
+    var $lis = $('.col-xs-8 ul li');
+    $lis.click(function(){
+        $(this).addClass('shouye').siblings().removeClass('shouye');
+    });
+    $lis.eq(0).click(function(){
+        document.location.href = '首页.html';
+    });
+    $lis.eq(1).click(function(){
+        document.location.href = '医生上门.html';
+    });
+    $lis.eq(2).click(function(){
+        document.location.href = '医护陪诊.html';
+    });
+    $lis.eq(3).click(function(){
+        document.location.href = '企业服务.html';
+    });
+    $lis.eq(4).click(function(){
+        document.location.href = '关于医小护.html';
+    });
+    $lis.eq(5).click(function(){
+        document.location.href = '加入我们.html';
+    });
+    $('.main1-top2 div').click(function(){
+        $(this).addClass('main1-top2-div1').siblings().removeClass('main1-top2-div1');
+        $('.main1 .main1-top3').eq($(this).index()).addClass('block').siblings().removeClass('block');
+    });
+</script>
+<script>
+    window.onload = function() {
+        var swiper = new Swiper('.swiper-container2',{
+            autoplay:3000,
+            speed:1000,
+            autoplayDisableOnInteraction : false,
+            loop:true,
+            centeredSlides : true,
+            slidesPerView:2,
+            pagination : '.swiper-pagination2',
+            paginationClickable:true,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+            onInit:function(swiper){
+                swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+            },
+            breakpoints: {
+                668: {
+                    slidesPerView: 1
+                }
+            }
+        });
+    }
+</script>
+</body>
+</body>
+</html>

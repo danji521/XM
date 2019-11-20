@@ -1,0 +1,734 @@
+/*头部导航开始*/
+.col-md-2{
+    /*background-color: rosybrown;*/
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.col-md-2 img{
+    /*width: 65%;*/
+}
+.col-md-8{
+    /*background-color: #008800;*/
+    height: 0.6rem;
+
+}
+.col-md-8 ul li{
+    display: inline-block;
+    /*margin-left: 0.3rem;*/
+    margin-top:0.20rem;
+    cursor: pointer;
+}
+
+
+.col-md-2{
+    /*background-color: red;*/
+    height: 0.6rem;
+}
+.col-md-2 .span1{
+    /*margin-left: 0.04rem;*/
+    color: #007aff;
+}
+.col-md-2 span{
+    cursor: pointer;
+}
+.col-md-2 span:hover{
+    color: #007aff;
+}
+.col-md-2 .span2:hover{
+    color:black;
+}
+@media screen and (min-width:992px){
+    .col-md-2 img{
+        width: 65%;
+    }
+    .col-md-8 ul li{
+        margin-left: 0.3rem;
+        font-size: 0.14rem;
+    }
+    .col-md-2 span{
+        margin-left: 0.03rem;
+        font-size: 0.135rem;
+    }
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .col-md-2 img{
+        width: 100%;
+    }
+    .col-md-8 ul li{
+        margin-left: 0.08rem;
+        font-size: 0.14rem;
+    }
+    .col-md-2 span{
+        margin-left: 0.01rem;
+        font-size: 0.02rem;
+    }
+}
+@media screen and (max-width:768px){
+    .col-xs-2 img{
+        width: 100%;
+    }
+    .col-xs-8 ul li{
+        margin-left: 0.008rem;
+        font-size: 0.001rem;
+    }
+
+    .span1{
+        font-size: 0.08rem;
+    }
+    .span2{
+        display: none;
+    }
+    .span3{
+        display: none;
+    }
+}
+/*头部导航结束*/
+
+/*banner轮播开始*/
+.swiper-container {
+    width: 100%;
+    height: 4.5rem;
+}
+.slide1>img,.slide2>img,.slide3>img{
+    width: 100%;
+    height:100%
+}
+/*banner轮播结束*/
+
+/*第一个内容区开始*/
+.main1{
+    width:100%;
+    height: 7rem;
+    overflow: hidden;
+}
+.main1 .main1-center{
+    width: 70%;
+    height: 7rem;
+    margin: 1.5rem auto;
+}
+.main1 .main1-center div{
+    width: 49%;
+    height: 33%;
+    border:1px solid grey;
+    float: left;
+}
+.main1 .main1-center div:nth-child(odd){
+    border-left:none;
+}
+.main1 .main1-center div:nth-child(even){
+    border-right:none;
+}
+.main1 .main1-center div:first-child{
+    border-top:none;
+}
+.main1 .main1-center div:nth-child(2){
+    border-top:none;
+}
+.main1 .main1-center div .main1_center_left{
+    width: 30%;
+    height: 100%;
+    float:left;
+    border:none;
+}
+.main1 .main1-center div:nth-child(3),.main1 .main1-center div:nth-child(4){
+    border-bottom: none;
+ }
+.main1_center_left img{
+    width: 50%;
+    margin-top: 45%;
+}
+.main1 .main1-center div .main1_center_right{
+    width: 70%;
+    height: 100%;
+    float:left;
+    border:none;
+    margin-left: -3%;
+
+}
+.p40{
+    font-size: 0.22rem;
+    text-align: left;
+    padding-top: 18%;
+}
+.p41{
+    font-size: 0.16rem;
+    text-align: left;
+}
+
+.main1_center_left{
+    transition: all 1s;
+}
+.main1_center_left:hover{
+    transform: rotate(35deg);
+}
+/*第一个内容去结束*/
+
+/*第二个内容区开始*/
+.main2{
+    background-color: #E1E1E1;
+    width: 100%;
+    height:6.7rem;
+}
+/*.main2 .center2{*/
+/*width: 80%;*/
+/*height: 6.7rem;*/
+/*margin: 0 auto;*/
+/*}*/
+.top2{
+    width: 100%;
+    height: 2rem;
+}
+.p23{
+    font-size: 0.3rem;
+    letter-spacing: 0.04rem;
+    padding-top: 5%;
+}
+.p24{
+    font-size: 0.16rem;
+    color: gray;
+}
+.bottom2{
+    width: 100%;
+    height: 4.1rem;
+}
+.bottom2 div{
+    /*width: 30%;*/
+    /*height: 4.1rem;*/
+    /*margin-left: 0.27rem;*/
+    background-color: white;
+    float: left;
+    width: 80%;
+    height: 80%;
+}
+.p25{
+    font-size: 0.14rem;
+    font-weight: 500;
+    padding-top: 6%;
+    color: gray;
+    margin-left:20%;
+}
+.p26{
+    margin-top: 7%;
+    font-size: 0.14rem;
+    color: gray;
+    margin-left:20%;
+}
+.p26>span{
+    font-size: 0.18rem;
+    color: #f48239;
+}
+.bottom2 div img{
+    width: 100%;
+}
+.button1{
+    width: 50%;
+    height:10%;
+    margin-top: 2%;
+    margin-left:22%;
+}
+.p27{
+    font-size: 0.16rem;
+    text-align: center;
+}
+.p42{
+    font-size: 0.12rem;
+    margin-top: 1.7%;
+    color:gray;
+}
+.p47{
+    font-size: 0.25rem;
+    padding-top: 7%;
+    margin-left:20%
+}
+
+/*第二个内容区结束*/
+
+/*第三个内容区开始*/
+.main3{
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+}
+.main3_center{
+    width: 80%;
+    height: 90%;
+    margin: 1.8% auto;
+}
+.main3_center_top{
+    width: 100%;
+    height: 75%;
+}
+.main3_center_top div{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    position: relative;
+
+}
+.main3_center_top div img{
+    width: 22%;
+    margin-top: 20%;
+    transition: all 1s;
+}
+.p45{
+    font-size: 0.2rem;
+    margin-top: 5%;
+}
+.p46{
+    font-size: 0.14rem;
+    text-align: left;
+    padding-left: 20%;
+}
+.lijiyuyue{
+    width: 100px;
+    height: 30px;
+    background-color: #1fbca9;
+    margin: 0 auto;
+    padding-top: 1%;
+    letter-spacing: 0.03rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.14rem;
+    transition: all 1s;
+    line-height: 15px;
+}
+.lijiyuyue:hover{
+    color: orange;
+    background-color: #ff404b;
+}
+.main3_center_top>div>img:hover{
+    transform: rotate(360deg);
+}
+.main3_center_top>div>span{
+    display: none;
+    position: absolute;
+    right:25%;
+    top: 30%;
+}
+.main3_center_top>div>img:hover+span{
+    display: block;
+}
+/*第三个内容区结束*/
+
+
+/*第五块内容开始*/
+.main5{
+    width: 100%;
+    height: 5rem;
+
+}
+.main5-center{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.main5-center>.p30{
+    letter-spacing: 0.05rem;
+    /*font-size: 0.35rem;*/
+}
+.main5-center>div{
+    margin:0 auto;
+    width: 20%;
+    height:20%;
+}
+.main5-center>div>img{
+    width: 100%;
+    border: none;
+}
+@media screen and (min-width:992px){
+    .main5-center>.p30{
+        font-size: 0.35rem;
+        padding-top: 2%;
+    }
+    .main5-center>.p31{
+        font-size: 0.25rem;
+    }
+    .main5-center>.p32{
+        font-size: 0.14rem;
+    }
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .main5-center>.p30{
+        font-size: 0.25rem;
+        padding-top: 1%;
+    }
+    .main5-center>.p31{
+        font-size: 0.2rem;
+    }
+    .main5-center>.p32{
+        font-size: 0.14rem;
+    }
+}
+@media screen and (max-width:768px){
+    .main5-center>.p30{
+        font-size: 0.25rem;
+        padding-top: 12%;
+    }
+    .main5-center>.p31{
+        font-size: 0.2rem;
+    }
+    .main5-center>.p32{
+        font-size: 0.14rem;
+    }
+    .lijiyuyue{
+        margin-top: 10%;
+    }
+}
+/*第五块内容结束*/
+
+/*第六块内容开始*/
+.main6{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #1fbca9;
+}
+.main6-left{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.p16{
+    font-size: 0.16rem;
+    color: white;
+    margin-top: 5%;
+}
+.p17{
+    font-size: 0.4rem;
+    color: white;
+}
+.p18{
+    font-size: 0.16rem;
+    color: white;
+}
+.main6-right{
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+.main6-right>img{
+    height: 130%;
+    margin-top: -0.64rem;
+    margin-left: -8%;
+}
+@media screen and (min-width:992px){
+
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .p16{
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width:768px){
+    .p16{
+        margin-top: 10%;
+    }
+    .p33{
+        font-size: 0.11rem;
+    }
+    .p34{
+        margin-top: -3.5%;
+    }
+    .p18{
+        margin-top: -3%;
+    }
+}
+/*第六块内容结束*/
+
+/*第七块内容开始*/
+.main7{
+    width: 100%;
+    height: 4rem;
+    background-color: #E1E1E1;
+}
+.main7-top{
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+}
+.main7-left,.main7-right{
+    width: 15%;
+    height: 100%;
+
+}
+.main7-center{
+    flex-grow: 1;
+    height: 100%;
+
+}
+.main7-center div{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-top: 7%;
+}
+.main7-center div p{
+    font-size: 0.14rem;
+    color: gray;
+}
+.main7-center div li{
+    font-size: 0.12rem;
+    color: gray;
+    cursor: pointer;
+}
+.main7-center div>.p19{
+    color: dodgerblue;
+    letter-spacing: 0.03rem;
+}
+.main7-center div>.p20{
+    font-size: 0.12rem;
+    color: grey;
+}
+.main7-center div ul li:hover,.main7-center div ul li p:hover{
+    color: black;
+}
+.main7-bottom{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.main7-bottom div{
+    width: 7rem;
+    height: 0.5rem;
+    margin: -0.4% auto 0 auto;
+}
+.main7-bottom div ul li{
+    float:left;
+    margin-left: 5.8%;
+    margin-top: 2%;
+    font-size: 0.14rem;
+    color: gray;
+    cursor: pointer;
+}
+.main7-bottom div ul li:hover{
+    color:black;
+}
+.main7-bottom>span{
+    color: gray;
+    font-size: 0.12rem;
+}
+@media screen and (min-width:992px){
+    .main7-center div>.p19{
+        font-size: 0.16rem;
+    }
+
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .main7-center div>.p19{
+        font-size: 0.14rem;
+        letter-spacing: 0.01rem;
+    }
+    .p35{
+        margin-left: -8%;
+    }
+}
+@media screen and (max-width:768px){
+    .main7-center div>.p19{
+        font-size: 0.08rem;
+        letter-spacing: 0.01rem;
+    }
+    .p35{
+        margin-left: -50%;
+        font-size: 0.12rem;
+        margin-top: -10%;
+
+    }
+    .main7-bottom div ul li{
+        float:left;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 0.14rem;
+        color: gray;
+    }
+}
+/*第七块内容结束*/
+
+
+
+/*第二个内容轮播样式开始*/
+
+.pc-banner {
+    width: 100%;
+    float: left;
+}
+
+@media screen and (max-width: 668px) {
+    .pc-banner {
+        background-size: auto 100%;
+    }
+}
+
+.swiper-container2 {
+    width: 100%;
+    margin: 35px 0;
+}
+
+@media screen and (max-width: 668px) {
+    .swiper-container {
+        margin: 20px 0 15px;
+    }
+}
+
+.swiper-slide {
+    -webkit-transition: transform 1.0s;
+    -moz-transition: transform 1.0s;
+    -ms-transition: transform 1.0s;
+    -o-transition: transform 1.0s;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+@media screen and (max-width: 668px) {
+    .swiper-slide {
+        -webkit-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+}
+
+.swiper-slide-active,.swiper-slide-duplicate-active {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 668px) {
+    .swiper-slide-active,.swiper-slide-duplicate-active {
+        -webkit-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+}
+
+.none-effect {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+
+
+@media screen and (min-width: 668px) {
+    .swiper-slide a:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        box-sizing: border-box;
+        border: 10px solid #fff;
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+}
+
+.swiper-slide-active a:after {
+    background: none;
+}
+
+@media screen and (max-width: 668px) {
+    .swiper-slide a {
+        padding: 5px;
+        border-radius: 7px;
+    }
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 14px;
+    display: block;
+}
+
+@media screen and (max-width: 668px) {
+    .swiper-slide img {
+        border-radius: 7px;
+    }
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+    background: #00a0e9;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 17px;
+    height: 17px;
+    opacity: 1;
+    margin-bottom: 4px;
+}
+
+.swiper-pagination-bullet-active {
+    width: 13px;
+    height: 13px;
+    background: #FFF;
+    border: 6px solid #00a0e9;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 668px) {
+
+    .swiper-pagination2 {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .swiper-pagination-bullet {
+        background: #00a0e9;
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 8px;
+        height: 8px;
+        margin-bottom: 2px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 6px;
+        height: 6px;
+        background: #FFF;
+        border: 3px solid #00a0e9;
+        margin-bottom: 0;
+    }
+}
+
+.button {
+    width: 1000px;
+    margin: 0 auto;
+    bottom: 43px;
+    position: relative;
+}
+
+@media screen and (max-width: 668px) {
+    .button {
+        width: 70%;
+        bottom: 22px;
+    }
+}
+
+.button div:hover {
+    background-color: #e7e1cd;
+}
+
+.swiper-button-prev {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") skyblue center 50%/50% 50% no-repeat;
+}
+
+.swiper-button-next {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") skyblue center 50%/50% 50% no-repeat;
+}
+
+@media screen and (max-width: 668px) {
+    .button div {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/*第二个内容轮播样式结束*/

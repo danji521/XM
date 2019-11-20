@@ -1,0 +1,264 @@
+/*头部导航开始*/
+.col-md-2{
+    /*background-color: rosybrown;*/
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.col-md-2 img{
+    /*width: 65%;*/
+}
+.col-md-8{
+    /*background-color: #008800;*/
+    height: 0.6rem;
+
+}
+.col-md-8 ul li{
+    display: inline-block;
+    /*margin-left: 0.3rem;*/
+    margin-top:0.20rem;
+    cursor: pointer;
+}
+
+.col-md-2{
+    /*background-color: red;*/
+    height: 0.6rem;
+}
+.col-md-2 .span1{
+    /*margin-left: 0.04rem;*/
+    color: #007aff;
+}
+.col-md-2 span{
+    cursor: pointer;
+}
+.col-md-2 span:hover{
+    color: #007aff;
+}
+.col-md-2 .span2:hover{
+    color:black;
+}
+@media screen and (min-width:992px){
+    .col-md-2 img{
+        width: 65%;
+    }
+    .col-md-8 ul li{
+        margin-left: 0.3rem;
+        font-size: 0.14rem;
+    }
+    .col-md-2 span{
+        margin-left: 0.03rem;
+        font-size: 0.135rem;
+    }
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .col-md-2 img{
+        width: 100%;
+    }
+    .col-md-8 ul li{
+        margin-left: 0.08rem;
+        font-size: 0.14rem;
+    }
+    .col-md-2 span{
+        margin-left: 0.01rem;
+        font-size: 0.02rem;
+    }
+}
+@media screen and (max-width:768px){
+    .col-xs-2 img{
+        width: 100%;
+    }
+    .col-xs-8 ul li{
+        margin-left: 0.008rem;
+        font-size: 0.001rem;
+    }
+    .span1{
+        font-size: 0.08rem;
+    }
+    .span2{
+        display: none;
+    }
+    .span3{
+        display: none;
+    }
+}
+/*头部导航结束*/
+
+/*第一个内容区开始*/
+.main1{
+    width:70%;
+    height: 12rem;
+    margin: 0 auto;
+}
+.main1-top{
+    width: 100%;
+    height:3%;
+    border-bottom: 1px solid #E1E1E1;
+}
+.p1{
+    text-align: left;
+    font-size: 0.12rem;
+    padding-left: 3%;
+    cursor: pointer;
+    width: 2rem;
+
+}
+.p1 span{
+    font-size: 0.12rem;
+    text-align: left;
+    display: none;
+}
+
+.p1 .p2{
+    display: block;
+}
+.main1-bottom{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+.main1-bottom-left{
+    width: 18%;
+    height: 20%;
+    margin-top: 3%;
+    border: 1px solid #E1E1E1;
+    float: left;
+}
+.main1-bottom-left ul li{
+    font-size: 0.14rem;
+    text-align: center;
+    padding-top: 10%;
+    cursor: pointer;
+}
+.main1-bottom-right{
+    width: 79%;
+    height:100%;
+    float:right;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.main1-bottom-right div{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.main1-bottom-right .text-div{
+    display: block;
+}
+.p5{
+    font-size: 0.16rem;
+    text-align: left;
+    font-weight: 600;
+}
+.p6{
+    font-size: 0.14rem;
+    text-align: left;
+}
+/*第一个内容区结束*/
+
+/*尾部开始*/
+.main7{
+    width: 100%;
+    height: 4rem;
+    background-color: #E1E1E1;
+}
+.main7-top{
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+}
+.main7-left,.main7-right{
+    width: 15%;
+    height: 100%;
+
+}
+.main7-center{
+    flex-grow: 1;
+    height: 100%;
+
+}
+.main7-center div{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-top: 7%;
+}
+.main7-center div p{
+    font-size: 0.14rem;
+    color: gray;
+}
+.main7-center div li{
+    font-size: 0.12rem;
+    color: gray;
+    cursor: pointer;
+}
+.main7-center div>.p19{
+    color: dodgerblue;
+    letter-spacing: 0.03rem;
+}
+.main7-center div>.p20{
+    font-size: 0.12rem;
+    color: grey;
+}
+.main7-center div ul li:hover,.main7-center div ul li p:hover{
+    color: black;
+}
+.main7-bottom{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.main7-bottom div{
+    width: 7rem;
+    height: 0.5rem;
+    margin: -0.4% auto 0 auto;
+}
+.main7-bottom div ul li{
+    float:left;
+    margin-left: 5.8%;
+    margin-top: 2%;
+    font-size: 0.14rem;
+    color: gray;
+    cursor: pointer;
+}
+.main7-bottom div ul li:hover{
+    color:black;
+}
+.main7-bottom>span{
+    color: gray;
+    font-size: 0.12rem;
+}
+@media screen and (min-width:992px){
+    .main7-center div>.p19{
+        font-size: 0.16rem;
+    }
+
+}
+@media screen and (max-width:992px) and (min-width: 768px){
+    .main7-center div>.p19{
+        font-size: 0.14rem;
+        letter-spacing: 0.01rem;
+    }
+    .p35{
+        margin-left: -8%;
+    }
+}
+@media screen and (max-width:768px){
+    .main7-center div>.p19{
+        font-size: 0.08rem;
+        letter-spacing: 0.01rem;
+    }
+    .p35{
+        margin-left: -50%;
+        font-size: 0.12rem;
+        margin-top: -10%;
+
+    }
+    .main7-bottom div ul li{
+        float:left;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 0.14rem;
+        color: gray;
+    }
+}
+/*尾部结束*/

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>医生上门</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/yishengshangmen.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="js/jquery-1.12.3.min.js"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        // 750 -> 1rem = 50px   大于750 -> 1rem = 100px
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        .shouye{
+            border-bottom: 2px solid #0086b3;
+        }
+    </style>
+</head>
+<body>
+<!--导航开始-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <img src="image/logo.png" alt=""/>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+            <ul>
+                <li>首页</li>
+                <li class="shouye">医生上门</li>
+                <li>医护陪诊</li>
+                <li>企业服务</li>
+                <li>关于医小护</li>
+                <li>加入我们</li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 top">
+            <span class="span1">会员登陆</span><span class="span2">或</span><span class="span3">立即登陆</span>
+        </div>
+    </div>
+</div>
+<!--导航结束-->
+
+<!--banner轮播开始-->
+<div class="swiper-container swiper-container1">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1"><img src="image/4-bj.png" alt=""/></div>
+        <div class="swiper-slide slide2"><img src="image/05bj.png" alt=""/></div>
+        <div class="swiper-slide slide3"><img src="image/06bj.png" alt=""/></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+</div>
+<!--banner轮播结束-->
+
+<!--第一个内容区开始-->
+<div class="main1">
+    <div class="main1-center">
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-1.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">疾病诊治</p>
+                <p class="p41">我们的医生可以治疗感冒、流感、胃病、呼吸道问题、眼睛感染、皮肤病、鼻塞等众多常见疾病。
+            </div>
+        </div>
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-2.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">外伤处理</p>
+                <p class="p41">轻伤的紧急处理和基本护理,包括扭伤和伤口的缝合。
+            </div>
+        </div>
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-3.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">皮肤疾病和美容</p>
+                <p class="p41">治疗常见皮肤病,包括皮疹、真菌类疾病，并提供专业的皮肤美容项目。
+            </div>
+        </div>
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-4.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">体检</p>
+                <p class="p41">我们为个人和企业、学校等提供专业的上门体检服务。
+            </div>
+        </div>
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-5.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">上门康复和检查</p>
+                <p class="p41">我们为康复病人和行动不方便的老人提供定期上门康复和检查服务，包括血压、胆固醇、血糖和BMI指数检查。
+            </div>
+        </div>
+        <div>
+            <div class="main1_center_left">
+                <img src="image/06-6.png" alt=""/>
+            </div>
+            <div class="main1_center_right">
+                <p class="p40">儿科及儿童保健</p>
+                <p class="p41">医小护提供专业的上门疫苗接种等，专门为儿童保健服务，并为6个月以上儿童提供基础护理治疗服务。
+            </div>
+        </div>
+    </div>
+</div>
+<!--第一个内容区结束-->
+
+<!--第二个内容区开始-->
+<div class="main2">
+    <div class="center2">
+        <div class="top2">
+            <h2 class="p23">服务预定及定价</h2>
+            <p class="p24">您将看到整个诊疗过程的一切花费，没有任何隐藏的费用，不仅价格公道<br/>而且支持医保结算。</p>
+        </div>
+
+
+
+
+
+
+        <section class="pc-banner">
+            <div class="swiper-container swiper-container2">
+                <div class="swiper-wrapper bottom2">
+                    <div class="swiper-slide swiper-slide-center none-effect">
+                        <div>
+                            <p class="p47">首次预约医生上门只需</p>
+                            <p class="p25">
+                                我们为第一次预约医小护的医生上门看<br/>服务的用户提供了专属的体优惠，让<br/>
+                                以超低的价格感受超值的专业就医体验。
+                            </p>
+                            <p class="p26"><span>￥98元</span>/次/2小时</p>
+                            <button class="btn btn-info button1"><p class="p27">立即预约></p></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <p class="p47">医生上门服务收费标准</p>
+                            <p class="p25">
+                                医小护的医生上门服务包含了30-40分钟<br/>
+                                微不至的病情答疑，以及专业的现场检<br/>
+                                查、治疗、伤口处理和缝合、诊断及处<br/>
+                                等服务。超出200元的用药，费用需要
+                                额外支付。
+                            </p>
+                            <p class="p26"><span>￥198元</span>/次/2小时</p>
+                            <button class="btn btn-info button1">立即预约></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <p class="p47">上门体检收费标准</p>
+                            <p class="p25">
+                                医小护的上门体检服务包含了血压、胆<br/>
+                                醇、血糖、BMI指数等常规基础体检，<br/>
+                                们可以为个人、公司、学校提供专业的体检服务。
+                            </p>
+                            <p class="p26"><span>￥198元</span>/次/2小时</p>
+                            <button class="btn btn-info button1"><p class="p27">立即预约></p></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination2"></div>
+            <div class="button">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div></div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <p class="p42">目前，医小护的部分服务，还支持用医保结算，如您需要用医保支付，请在预约医小护时备注说明。</p>
+    </div>
+</div>
+<!--第二个内容区结束-->
+
+<!--第三个内容区开始-->
+<div class="main3">
+    <div class="main3_center">
+        <div class="main3_center_top">
+            <div>
+                <img src="image/05-1.png" alt=""/>
+                <span>O(∩_∩)O</span>
+                <p class="p45">简单方便</p>
+                <p class="p46">
+                    预约医生上门，首次只需100元，此后每次<br/>收费198元。
+                    每次上门的治疗费用都包含在<br/>预约费用之中，只有超出的部分才需要额<br/>外支付，相当于免费上门。
+                </p>
+            </div>
+            <div>
+                <img src="image/05-2.png" alt=""/>
+                <span>O(∩_∩)O</span>
+                <p class="p45">定价透明</p>
+                <p class="p46">
+                    您将看到整个诊疗过程的一切花费，没有<br/>任何隐藏的费用，不仅价格公道而且支持医保结算。
+                </p>
+            </div>
+            <div>
+                <img src="image/05-3.png" alt=""/>
+                <span>O(∩_∩)O</span>
+                <p class="p45">方便支付</p>
+                <p class="p46">
+                    目前，医小护已开通支持微信和支付宝支<br/>付，方便您随时随地预约服务。
+                </p>
+            </div>
+        </div>
+        <div class="lijiyuyue">立即预约></div>
+    </div>
+</div>
+<!--第三个内容区结束-->
+
+<!--第五块内容开始-->
+<div class="main5">
+    <div class="main5-center">
+        <br/>
+        <br/>
+        <br/>
+        <p class="p30">医小护，医生上门和医护陪诊第一平台</p>
+        <p class="p31">如果您需要预约医护陪诊，请马上和我们联系</p>
+        <p class="p32">医小护官方微信：yixiaohu120</p>
+        <div>
+            <img src="image/二维码.png" alt=""/>
+        </div>
+    </div>
+</div>
+<!--第五块内容结束-->
+
+<!--第六块内容开始-->
+<div class="main6">
+    <div class="main6-left">
+        <p class="p16">您也可以直接拨打医小护的就医预约专线</p>
+        <p class="p17">400-114-5120</p>
+        <p class="p18">7X24小时服务</p>
+        <button type="button" class="btn btn-warning p34" data-toggle="modal" data-target="#exampleModal"><span class="p33">在线客服</span></button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">请留言给客服</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">姓名:</label>
+                                <input type="text" class="form-control" id="recipient-name" placeholder="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">留言内容:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">提交</button>
+                        <button type="button" class="btn btn-primary">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="main6-right">
+        <img src="image/ren.png" alt="" data-toggle="tooltip" data-placement="left" title="快来联系我啊！"/>
+    </div>
+</div>
+<!--第六块内容结束-->
+
+<!--第七块内容开始-->
+<div class="main7">
+    <div class="main7-top">
+        <div class="main7-left"></div>
+        <div class="main7-center">
+            <div>
+                <ul>
+                    <li><p>关于我们</p></li>
+                    <li>公司介绍</li>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                    <li>黄金优势</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>健康导航</p></li>
+                    <li>医生上门</li>
+                    <li>医护陪诊</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>友情链接</p></li>
+                    <li>多宠乐购</li>
+                    <li>康知网</li>
+                    <li>爱晒网</li>
+                    <li>趣婚</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>关注我们</p></li>
+                    <li>腾讯微博</li>
+                    <li>新浪微博</li>
+                </ul>
+            </div>
+            <div>
+                <p class="p19">400-114-5120</p>
+                <p class="p20">周一至周日 8:00-18:00 <br/>（仅收市话费）</p>
+                <button type="button" class="btn btn-success p35">24小时在线客服</button>
+            </div>
+        </div>
+        <div class="main7-right"></div>
+    </div>
+    <div class="main7-bottom">
+        <div>
+            <ul>
+                <li>医小护合作网站：</li>
+                <li>百度</li>
+                <li>百度贴吧</li>
+                <li>康知网</li>
+                <li>康贝妈妈</li>
+                <li>妇婴吧</li>
+                <li>怀孕吧</li>
+            </ul>
+        </div>
+        <span>©2015 北京康知天下科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备11032486号</span>
+    </div>
+</div>
+<!--第七块内容结束-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container1', {
+        loop: true,
+        autoplay:3000,
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+
+    });
+    $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);// Button that triggered the modal
+        // Extract info from data-* attributes
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this);
+        modal.find('.modal-title').text('请留言给客服' )
+    });
+    var $lis = $('.col-xs-8 ul li');
+    $lis.click(function(){
+        $(this).addClass('shouye').siblings().removeClass('shouye');
+    });
+    $lis.eq(0).click(function(){
+        document.location.href = '首页.html';
+    });
+    $lis.eq(1).click(function(){
+        document.location.href = '医生上门.html';
+    });
+    $lis.eq(2).click(function(){
+        document.location.href = '医护陪诊.html';
+    });
+    $lis.eq(3).click(function(){
+        document.location.href = '企业服务.html';
+    });
+    $lis.eq(4).click(function(){
+        document.location.href = '关于医小护.html';
+    });
+    $lis.eq(5).click(function(){
+        document.location.href = '加入我们.html';
+    });
+</script>
+<script>
+    window.onload = function() {
+        var swiper = new Swiper('.swiper-container2',{
+            autoplay:3000,
+            speed:1000,
+            autoplayDisableOnInteraction : false,
+            loop:true,
+            centeredSlides : true,
+            slidesPerView:2,
+            pagination : '.swiper-pagination2',
+            paginationClickable:true,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+            onInit:function(swiper){
+                swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+            },
+            breakpoints: {
+                668: {
+                    slidesPerView: 1
+                }
+            }
+        });
+    }
+</script>
+</body>
+</body>
+</html>

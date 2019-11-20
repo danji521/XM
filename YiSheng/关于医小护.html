@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>关于医小护</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/guanyu.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // 750 -> 1rem = 50px   大于750 -> 1rem = 100px
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        .shouye{
+            border-bottom: 2px solid #0086b3;
+        }
+        .blue{
+            color: skyblue;
+        }
+    </style>
+</head>
+<body>
+<!--导航开始-->
+<div class="container container1">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <img src="image/logo.png" alt=""/>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+            <ul>
+                <li>首页</li>
+                <li>医生上门</li>
+                <li>医护陪诊</li>
+                <li>企业服务</li>
+                <li class="shouye">关于医小护</li>
+                <li>加入我们</li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 top">
+            <span class="span1">会员注册</span><span class="span2">或</span><span class="span3">立即登陆</span>
+        </div>
+    </div>
+</div>
+<hr/>
+<!--导航结束-->
+<!--第一个内容区开始-->
+<div class="main1">
+    <div class="main1-top">
+        <p class="p1">
+            <a class="a1" style="text-decoration: none">首页 ></a><span class="p2"> 关于我们</span>
+            <span> 联系我们</span>
+            <span> 意见反馈</span>
+            <span> 招贤纳士</span>
+        </p>
+
+    </div>
+    <div class="main1-bottom">
+        <div class="main1-bottom-left">
+            <ul>
+               <li class="blue">关于我们</li>
+               <li>联系我们</li>
+               <li>意见反馈</li>
+               <li>招贤纳士</li>
+            </ul>
+        </div>
+        <div class="main1-bottom-right">
+            <div class="text-div">
+                <p class="p5">关于我们</p>
+                <p class="p6">
+                    医小护——医护陪诊、上门看病第一平台！<br/>
+                    作为北京康知天下科技有限公司推出的一个基于移动互联网的O2O医疗服务产品，通过提供排队挂<br/>
+                    号取号、诊前提醒、专车接送、就诊陪护、上门看病、预约检查、取送报告、诊后关爱等陪诊服<br/>
+                    务，改善患者及家属就医体验，缓解当下“看病难”这一社会问题，让看病方便而高效。<br/>
+                    <br/>
+                    同时，医小护作为护士服务点评的第一平台！<br/>
+                    在平台上，医生、护士可以利用工作闲暇时间为患者做陪诊服务，不仅拓宽医护人员与患者的交流渠道<br/>
+                    、执业渠道，还可因服务与更多患者增加收入。对患者以及家属而言，请医护人员陪诊可减少因对医院<br/>
+                    环境、运行不熟悉而产生的麻烦，还可避免因对医学专业知识了解不足所带来的困扰，实现患者与医护陪诊者<br/>
+                    双方的双赢局面，同时陪护人员均具有执业医师、护士资格证书以及多年从业经验。未来，医小护平台的陪护<br/>
+                    服务好评率将成为其业内的知名度与单位评价参照指标之一。<br/>
+                    <br/>
+                    时下，我国已正式进入老龄化社会。医小护希望成为这一社会环境下的福音慈报，帮助老人以及一切需要帮助的患者，<br/>
+                    让他们在看病遇到困难时有人关心、陪护，在就医过程中感受亲情般的温暖，做到老有所依（医）。在社会老龄化<br/>
+                    程度渐深之即，看病陪护问题也越来越成为困扰中青年群体的一个社会问题，医小护代为生活打拼的年轻人尽一份孝心，<br/>
+                    让含辛茹苦养育孩子的父母们看病真正不再困难。<br/>
+                    <br/>
+                    我们的服务:<br/>
+                    我们是患者的腿<br/>
+                    从进入医院的那一刻起，我们为患者排队取号、送化验标本、取化验报告、安排B超CT、到药房拿药，免去患者的奔波劳累。<br/>
+                    <br/>
+                    我们是患者的嘴
+                    我什么时候再来复查？我这个药该怎么吃？我这个化验结果有什么问题吗？进了医院，总是有各种问题要问医生，<br/>
+                    而医生却总是那么忙碌，没关系，我们懂的，会给患者最专业的回答，不懂的，我们会替你咨询医生、药师、检验师。<br/>
+                    <br/>
+                    我们是患者的眼<br/>
+                    入院后，病情有没有变化？中西药，发的药有没有遗漏？做检查，是不是忘记哪一项？这些，不用患者劳心，我们会替你看到。<br/>
+                    <br/>
+                    我们的承诺：<br/>
+                    <br/>
+                    谨以至诚，忠于所托<br/>
+                    尽全力提高陪护标准；<br/>
+                    谨守患者病情及秘密；<br/>
+                    竭诚协助诊治之方便；<br/>
+                    全心为患者谋取福利。<br/>
+                    安心一点、舒适一些<br/>
+                    这是每一位患者的需求，<br/>
+                    也是医小护的不懈追求……<br/>
+                    <br/>
+                    我们的理念：<br/>
+                    <br/>
+                    对护士：提升职业尊严，提高职业价值，拓宽职业平台<br/>
+                    对用户：关怀备至、温馨体贴、亲如家人<br/>
+                    对员工：相互信任、相互成就、分享成长<br/>
+                    <br/>
+                    我们的愿景：<br/>
+                    <br/>
+                    老有所依、老有所医，看病不再难<br/>
+                </p>
+            </div>
+            <div>
+                <p class="p5">联系我们</p>
+                <p class="p6">
+                    医小护——医护陪诊、上门看病第一平台！<br/>
+                    作为北京康知天下科技有限公司推出的一个基于移动互联网的O2O医疗服务产品，通过提供排队挂<br/>
+                    号取号、诊前提醒、专车接送、就诊陪护、上门看病、预约检查、取送报告、诊后关爱等陪诊服<br/>
+                    务，改善患者及家属就医体验，缓解当下“看病难”这一社会问题，让看病方便而高效。<br/>
+                    <br/>
+                    同时，医小护作为护士服务点评的第一平台！<br/>
+                    在平台上，医生、护士可以利用工作闲暇时间为患者做陪诊服务，不仅拓宽医护人员与患者的交流渠道<br/>
+                    、执业渠道，还可因服务与更多患者增加收入。对患者以及家属而言，请医护人员陪诊可减少因对医院<br/>
+                    环境、运行不熟悉而产生的麻烦，还可避免因对医学专业知识了解不足所带来的困扰，实现患者与医护陪诊者<br/>
+                    双方的双赢局面，同时陪护人员均具有执业医师、护士资格证书以及多年从业经验。未来，医小护平台的陪护<br/>
+                    服务好评率将成为其业内的知名度与单位评价参照指标之一。<br/>
+                    <br/>
+                    时下，我国已正式进入老龄化社会。医小护希望成为这一社会环境下的福音慈报，帮助老人以及一切需要帮助的患者，<br/>
+                    让他们在看病遇到困难时有人关心、陪护，在就医过程中感受亲情般的温暖，做到老有所依（医）。在社会老龄化<br/>
+                    程度渐深之即，看病陪护问题也越来越成为困扰中青年群体的一个社会问题，医小护代为生活打拼的年轻人尽一份孝心，<br/>
+                    让含辛茹苦养育孩子的父母们看病真正不再困难。<br/>
+                    <br/>
+                    我们的服务:<br/>
+                    我们是患者的腿<br/>
+                    从进入医院的那一刻起，我们为患者排队取号、送化验标本、取化验报告、安排B超CT、到药房拿药，免去患者的奔波劳累。<br/>
+                    <br/>
+                    我们是患者的嘴
+                    我什么时候再来复查？我这个药该怎么吃？我这个化验结果有什么问题吗？进了医院，总是有各种问题要问医生，<br/>
+                    而医生却总是那么忙碌，没关系，我们懂的，会给患者最专业的回答，不懂的，我们会替你咨询医生、药师、检验师。<br/>
+                    <br/>
+                    我们是患者的眼<br/>
+                    入院后，病情有没有变化？中西药，发的药有没有遗漏？做检查，是不是忘记哪一项？这些，不用患者劳心，我们会替你看到。<br/>
+                    <br/>
+                    我们的承诺：<br/>
+                    <br/>
+                    谨以至诚，忠于所托<br/>
+                    尽全力提高陪护标准；<br/>
+                    谨守患者病情及秘密；<br/>
+                    竭诚协助诊治之方便；<br/>
+                    全心为患者谋取福利。<br/>
+                    安心一点、舒适一些<br/>
+                    这是每一位患者的需求，<br/>
+                    也是医小护的不懈追求……<br/>
+                    <br/>
+                    我们的理念：<br/>
+                    <br/>
+                    对护士：提升职业尊严，提高职业价值，拓宽职业平台<br/>
+                    对用户：关怀备至、温馨体贴、亲如家人<br/>
+                    对员工：相互信任、相互成就、分享成长<br/>
+                    <br/>
+                    我们的愿景：<br/>
+                    <br/>
+                    老有所依、老有所医，看病不再难<br/>
+                </p>
+            </div>
+            <div>
+                <p class="p5">意见反馈</p>
+                <p class="p6">
+                    医小护——医护陪诊、上门看病第一平台！<br/>
+                    作为北京康知天下科技有限公司推出的一个基于移动互联网的O2O医疗服务产品，通过提供排队挂<br/>
+                    号取号、诊前提醒、专车接送、就诊陪护、上门看病、预约检查、取送报告、诊后关爱等陪诊服<br/>
+                    务，改善患者及家属就医体验，缓解当下“看病难”这一社会问题，让看病方便而高效。<br/>
+                    <br/>
+                    同时，医小护作为护士服务点评的第一平台！<br/>
+                    在平台上，医生、护士可以利用工作闲暇时间为患者做陪诊服务，不仅拓宽医护人员与患者的交流渠道<br/>
+                    、执业渠道，还可因服务与更多患者增加收入。对患者以及家属而言，请医护人员陪诊可减少因对医院<br/>
+                    环境、运行不熟悉而产生的麻烦，还可避免因对医学专业知识了解不足所带来的困扰，实现患者与医护陪诊者<br/>
+                    双方的双赢局面，同时陪护人员均具有执业医师、护士资格证书以及多年从业经验。未来，医小护平台的陪护<br/>
+                    服务好评率将成为其业内的知名度与单位评价参照指标之一。<br/>
+                    <br/>
+                    时下，我国已正式进入老龄化社会。医小护希望成为这一社会环境下的福音慈报，帮助老人以及一切需要帮助的患者，<br/>
+                    让他们在看病遇到困难时有人关心、陪护，在就医过程中感受亲情般的温暖，做到老有所依（医）。在社会老龄化<br/>
+                    程度渐深之即，看病陪护问题也越来越成为困扰中青年群体的一个社会问题，医小护代为生活打拼的年轻人尽一份孝心，<br/>
+                    让含辛茹苦养育孩子的父母们看病真正不再困难。<br/>
+                    <br/>
+                    我们的服务:<br/>
+                    我们是患者的腿<br/>
+                    从进入医院的那一刻起，我们为患者排队取号、送化验标本、取化验报告、安排B超CT、到药房拿药，免去患者的奔波劳累。<br/>
+                    <br/>
+                    我们是患者的嘴
+                    我什么时候再来复查？我这个药该怎么吃？我这个化验结果有什么问题吗？进了医院，总是有各种问题要问医生，<br/>
+                    而医生却总是那么忙碌，没关系，我们懂的，会给患者最专业的回答，不懂的，我们会替你咨询医生、药师、检验师。<br/>
+                    <br/>
+                    我们是患者的眼<br/>
+                    入院后，病情有没有变化？中西药，发的药有没有遗漏？做检查，是不是忘记哪一项？这些，不用患者劳心，我们会替你看到。<br/>
+                    <br/>
+                    我们的承诺：<br/>
+                    <br/>
+                    谨以至诚，忠于所托<br/>
+                    尽全力提高陪护标准；<br/>
+                    谨守患者病情及秘密；<br/>
+                    竭诚协助诊治之方便；<br/>
+                    全心为患者谋取福利。<br/>
+                    安心一点、舒适一些<br/>
+                    这是每一位患者的需求，<br/>
+                    也是医小护的不懈追求……<br/>
+                    <br/>
+                    我们的理念：<br/>
+                    <br/>
+                    对护士：提升职业尊严，提高职业价值，拓宽职业平台<br/>
+                    对用户：关怀备至、温馨体贴、亲如家人<br/>
+                    对员工：相互信任、相互成就、分享成长<br/>
+                    <br/>
+                    我们的愿景：<br/>
+                    <br/>
+                    老有所依、老有所医，看病不再难<br/>
+                </p>
+            </div>
+            <div>
+                <p class="p5">招贤纳士</p>
+                <p class="p6">
+                    医小护——医护陪诊、上门看病第一平台！<br/>
+                    作为北京康知天下科技有限公司推出的一个基于移动互联网的O2O医疗服务产品，通过提供排队挂<br/>
+                    号取号、诊前提醒、专车接送、就诊陪护、上门看病、预约检查、取送报告、诊后关爱等陪诊服<br/>
+                    务，改善患者及家属就医体验，缓解当下“看病难”这一社会问题，让看病方便而高效。<br/>
+                    <br/>
+                    同时，医小护作为护士服务点评的第一平台！<br/>
+                    在平台上，医生、护士可以利用工作闲暇时间为患者做陪诊服务，不仅拓宽医护人员与患者的交流渠道<br/>
+                    、执业渠道，还可因服务与更多患者增加收入。对患者以及家属而言，请医护人员陪诊可减少因对医院<br/>
+                    环境、运行不熟悉而产生的麻烦，还可避免因对医学专业知识了解不足所带来的困扰，实现患者与医护陪诊者<br/>
+                    双方的双赢局面，同时陪护人员均具有执业医师、护士资格证书以及多年从业经验。未来，医小护平台的陪护<br/>
+                    服务好评率将成为其业内的知名度与单位评价参照指标之一。<br/>
+                    <br/>
+                    时下，我国已正式进入老龄化社会。医小护希望成为这一社会环境下的福音慈报，帮助老人以及一切需要帮助的患者，<br/>
+                    让他们在看病遇到困难时有人关心、陪护，在就医过程中感受亲情般的温暖，做到老有所依（医）。在社会老龄化<br/>
+                    程度渐深之即，看病陪护问题也越来越成为困扰中青年群体的一个社会问题，医小护代为生活打拼的年轻人尽一份孝心，<br/>
+                    让含辛茹苦养育孩子的父母们看病真正不再困难。<br/>
+                    <br/>
+                    我们的服务:<br/>
+                    我们是患者的腿<br/>
+                    从进入医院的那一刻起，我们为患者排队取号、送化验标本、取化验报告、安排B超CT、到药房拿药，免去患者的奔波劳累。<br/>
+                    <br/>
+                    我们是患者的嘴
+                    我什么时候再来复查？我这个药该怎么吃？我这个化验结果有什么问题吗？进了医院，总是有各种问题要问医生，<br/>
+                    而医生却总是那么忙碌，没关系，我们懂的，会给患者最专业的回答，不懂的，我们会替你咨询医生、药师、检验师。<br/>
+                    <br/>
+                    我们是患者的眼<br/>
+                    入院后，病情有没有变化？中西药，发的药有没有遗漏？做检查，是不是忘记哪一项？这些，不用患者劳心，我们会替你看到。<br/>
+                    <br/>
+                    我们的承诺：<br/>
+                    <br/>
+                    谨以至诚，忠于所托<br/>
+                    尽全力提高陪护标准；<br/>
+                    谨守患者病情及秘密；<br/>
+                    竭诚协助诊治之方便；<br/>
+                    全心为患者谋取福利。<br/>
+                    安心一点、舒适一些<br/>
+                    这是每一位患者的需求，<br/>
+                    也是医小护的不懈追求……<br/>
+                    <br/>
+                    我们的理念：<br/>
+                    <br/>
+                    对护士：提升职业尊严，提高职业价值，拓宽职业平台<br/>
+                    对用户：关怀备至、温馨体贴、亲如家人<br/>
+                    对员工：相互信任、相互成就、分享成长<br/>
+                    <br/>
+                    我们的愿景：<br/>
+                    <br/>
+                    老有所依、老有所医，看病不再难<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--第一个内容区结束-->
+<!--尾部开始-->
+<div class="main7">
+    <div class="main7-top">
+        <div class="main7-left"></div>
+        <div class="main7-center">
+            <div>
+                <ul>
+                    <li><p>关于我们</p></li>
+                    <li>公司介绍</li>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                    <li>黄金优势</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>健康导航</p></li>
+                    <li>医生上门</li>
+                    <li>医护陪诊</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>友情链接</p></li>
+                    <li>多宠乐购</li>
+                    <li>康知网</li>
+                    <li>爱晒网</li>
+                    <li>趣婚</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><p>关注我们</p></li>
+                    <li>腾讯微博</li>
+                    <li>新浪微博</li>
+                </ul>
+            </div>
+            <div>
+                <p class="p19">400-114-5120</p>
+                <p class="p20">周一至周日 8:00-18:00 <br/>（仅收市话费）</p>
+                <button type="button" class="btn btn-success p35">24小时在线客服</button>
+            </div>
+        </div>
+        <div class="main7-right"></div>
+    </div>
+    <div class="main7-bottom">
+        <div>
+            <ul>
+                <li>医小护合作网站：</li>
+                <li>百度</li>
+                <li>百度贴吧</li>
+                <li>康知网</li>
+                <li>康贝妈妈</li>
+                <li>妇婴吧</li>
+                <li>怀孕吧</li>
+            </ul>
+        </div>
+        <span>©2015 北京康知天下科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备11032486号</span>
+    </div>
+</div>
+<!--尾部结束-->
+<script>
+    var $liss = $('.main1-bottom-left ul li');
+    var $divs = $('.main1-bottom-right div');
+    $liss.click(function(){
+        $(this).addClass('blue').siblings().removeClass('blue');
+        $('.p1 span').eq($(this).index()).addClass('p2').siblings().removeClass('p2');
+        $divs.eq($(this).index()).addClass('text-div').siblings().removeClass('text-div');
+    });
+    var $lis = $('.col-xs-8 ul li');
+    $lis.click(function(){
+        $(this).addClass('shouye').siblings().removeClass('shouye');
+    });
+    $lis.eq(0).click(function(){
+        document.location.href = '首页.html';
+    });
+    $lis.eq(1).click(function(){
+        document.location.href = '医生上门.html';
+    });
+    $lis.eq(2).click(function(){
+        document.location.href = '医护陪诊.html';
+    });
+    $lis.eq(3).click(function(){
+        document.location.href = '企业服务.html';
+    });
+    $lis.eq(4).click(function(){
+        document.location.href = '关于医小护.html';
+    });
+    $lis.eq(5).click(function(){
+        document.location.href = '加入我们.html';
+    });
+    $('.p1 .a1').click(function(){
+        document.location.href = '首页.html';
+    })
+</script>
+</body>
+</html>
