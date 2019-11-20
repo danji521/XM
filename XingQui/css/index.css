@@ -1,0 +1,343 @@
+/*Demo styles*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+html{
+    font-size: 50px;
+}
+
+/*第一页*/
+.swiper-slide>div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+}
+.bg>img{
+    height: 100%;
+}
+.tiao{
+    width: 4.3rem;
+    height: 9.2rem;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    margin-left:-2.1rem;
+}
+.tiao>img{
+    width: 100%;
+}
+.zi{
+    width: 0.6rem;
+    height: 7.2rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    margin-left: -0.3rem;
+}
+.zi>img{
+    width: 100%;
+}
+.dibuqiu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.8rem;
+    z-index: 5;
+}
+.dibuqiu>img{
+    width: 100%;
+}
+.nextpage{
+    width: 0.6rem;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 50%;
+    margin-left: -0.3rem;
+    z-index: 10;
+    animation: change 2s infinite;
+    transition:all 1s ;
+}
+.nextpage>img{
+    width: 100%;
+}
+.tian{
+    position: absolute;
+    top: 7.3rem;
+    left: 50%;
+    margin-left: -1rem;
+    width: 2rem;
+    height: 0.7rem;
+    color: #f4511e;
+    font-size: 0.8rem;
+    transform: rotate(-15deg) !important;
+}
+
+/*第二页*/
+.qiu{
+    width: 100%;
+    height: 14.2rem;
+    position: absolute;
+    top:0;
+}
+.qiu>img{
+    width: 100%;
+}
+.wupin{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    margin-left: -2.7rem;
+    width: 5.4rem;
+}
+.wupin>img{
+    width: 100%;
+}
+.feiren{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    margin-left: -0.45rem;
+    margin-top: -0.5rem;
+    width: 0.9rem;
+}
+.feiren>img{
+    width: 100%;
+}
+.wenzi1,.wenzi2{
+    width: 4rem;
+    position: absolute;
+    left: 50%;
+}
+.wenzi1{
+    top: 7rem;
+    margin-left: -3rem;
+}
+.wenzi2{
+    top: 7.7rem;
+    margin-left: -1rem;
+}
+.fen{
+    width: 1.5rem;
+    height: 1rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 50%;
+    margin-left: -1rem;
+    color: #f76654;
+    font-size: 0.7rem;
+    transform: rotate(-12deg);
+
+}
+.fenai{
+    width: 1.5rem;
+    position: absolute;
+    top: 9.1rem;
+    left: 50%;
+    margin-left: 0.2rem;
+}
+.huojian{
+    width: 6.8rem;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0;
+}
+
+/*第三页*/
+.thirdpage>img{
+    position: absolute;
+    left: 50%;
+}
+.p1{
+    width: 5.2rem;
+    top: 2rem;
+    margin-left: -2.6rem;
+  }
+.ge{
+    position: absolute;
+    left: 50%;
+    width: 2rem;
+    height: 1rem;
+    top: 3.2rem;
+    margin-left: -1.5rem;
+    color: #f4511e;
+    font-size: 0.8rem;
+    z-index: 3;
+}
+.zuji{
+    width: 2.2rem;
+    top: 3.2rem;
+}
+.thirdpage>.p2{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.p3{
+    width: 1.2rem;
+    bottom: 3.6rem;
+    margin-left: -3.2rem;
+}
+.p4{
+    width: 1.2rem;
+    bottom: 6rem;
+    margin-left: -0.4rem;
+}
+.p5{
+    width: 0.26rem;
+    bottom: 5.8rem;
+    margin-left: -2.4rem;
+}
+.p6{
+    width: 1.85rem;
+    bottom: 2.5rem;
+    margin-left: 1.6rem;
+}
+.p7{
+    width: 0.28rem;
+    bottom: 6rem;
+    margin-left: 1.6rem;
+}
+.j1{
+    width: 0.17rem;
+    bottom: 5.3rem;
+    margin-left: -0.1rem;
+}
+.j2{
+    width: 0.11rem;
+    bottom: 5.2rem;
+    margin-left: 0.1rem;
+}
+.j3{
+    width: 0.13rem;
+    bottom: 5rem;
+    margin-left:-0.15rem;
+}
+.j4{
+    width: 0.15rem;
+    bottom: 4.7rem;
+    margin-left:0.2rem;
+}
+.j5{
+    width: 0.17rem;
+    bottom: 4.4rem;
+    margin-left:-0.3rem;
+}
+.j6{
+    width: 0.24rem;
+    bottom: 3.8rem;
+    margin-left:0.2rem;
+}
+.j7{
+    width: 0.31rem;
+    bottom: 3rem;
+    margin-left:-0.4rem;
+}
+.j8{
+    width: 0.34rem;
+    bottom: 2.5rem;
+    margin-left:0.3rem;
+}
+.j9{
+    width: 0.39rem;
+    bottom: 1.8rem;
+    margin-left:-0.6rem;
+}
+.j10{
+    width: 0.44rem;
+    bottom: 1rem;
+    margin-left:0.2rem;
+}
+.j11{
+    width: 0.48rem;
+    bottom: 0.2rem;
+    margin-left:-0.7rem;
+}
+
+
+/*第四页*/
+.ganxie{
+    width: 6.6rem;
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    margin-left: -3.3rem;
+}
+.sanjiao{
+    width: 1.4rem;
+    position: absolute;
+    left: 50%;
+    top: 5.6rem;
+    margin-left: -0.7rem;
+}
+.ganen{
+    width: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 7.7rem;
+    margin-left: -2.5rem;
+}
+
+/*第五页*/
+.fifthpage>img{
+    position: absolute;
+    left: 50%;
+}
+.gongxi{
+    width: 3.45rem;
+    margin-left: -1.7rem;
+    top: 2.5rem;
+}
+.yuan100{
+    width: 5rem;
+    margin-left: -2.5rem;
+    top: 5.5rem;
+}
+.rongyao{
+    width: 3.34rem;
+    margin-left: -1.5rem;
+    top: 11.5rem;
+}
+
+@keyframes change {
+    from{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    50%{
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
