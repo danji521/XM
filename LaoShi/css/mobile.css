@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{margin:0;}
+.center{width:100%;}
+.header{background:url(../img/bigbanner.jpg) center top no-repeat; background-size:180% 100%; height:200px;}
+.slider_one{width:100%; height:auto;}
+.slider_one_left{float:none; height:auto; width:auto; padding:0 1em;}
+.slider_one_left .h1{width:auto; display:inline-block;}
+.slider_one_left .h1 h1{width:auto; font-size:28px;}
+.slider_one_left .h2{width:auto;}
+.slider_one_left .text{width:auto; height:auto; margin:0; padding:20px 0;}
+.slider_one_right{display:none;}
+.slider_two{display:none;}
+.main_two{margin-top:50px; padding-bottom:30px;}
+.centerTwo{width:100%;}
+.talk1{display:none;}
+
+.title{width:auto; text-align:center;}
+.title_bg{height:auto; width:auto; width:30%; margin:0 auto; padding:0.7em 2em; margin-top:-25px;}
+.title_bg h1{font-size:24px; line-height:normal;}
+
+.sgdg{display:block; margin-top:60px;}
+.sgdg .picCon{width:auto; height:auto; padding:0 1em;}
+.sgdg .picCon .pic{position:static; margin:0 auto 20px; left:auto; width:auto;}
+.sgdg .picCon .pic img{max-width:100% !important; height:auto !important;}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14{display:none;}
+
+.gyjl{display:block; margin-top:70px;}
+.gyjl .raido{width:auto; padding:0 1em;}
+.gyjl .raidoOne{width:auto; height:auto; float:none; margin:0 0 20px;}
+.gyjl .raidoOne p{font-size:16px;}
+.gyjl .raidoOne object{display:none;}
+.gyjl .raidoOne video{display:block;}
+
+.snnw{display:block; margin-top:60px;}
+.snnw .photo{width:auto; padding:0 1em; height:275px;}
+.snnw .photo ul{width:auto !important; height:auto !important;}
+.snnw .photo ul li{display:none !important;}
+.snnw .photo ul .select{width:auto !important; height:auto !important; display:block !important;}
+.snnw .photo ul .select a{height:auto;}
+.snnw .photo ul .select img{max-width:100% !important; height:auto !important;}
+.snnw .photo em{height:275px !important; top:0 !important;}
+.snnw .photo em.sPrev{left:20px !important;}
+.snnw .photo em.sNext{left:auto !important; right:20px !important;}
+
+.talk2{padding:0 1em; margin-top:2em;}
+.twoImg{margin:0 auto; width:auto; height:5em; background-size:100% 100%;}
+.twoImg h2{font-size:22px; line-height:normal; padding-top:0.5em;}
+.toorBg{width:auto; height:auto;}
+.toorBg .taBox{position:static !important; width:auto !important; height:auto !important; background:none !important; background:#fbf1e1 !important; border:1px solid #ead1aa !important; margin-top:20px;}
+.toorBg .wish{width:auto !important; height:auto !important; padding:10px 15px;}
+.toorBg .titlts h3{margin:10px 15px 0;}
+.toorBg .txtFooter{text-align:right; margin:0 15px 15px;}
+
+.roll{width:auto; height:560px; padding:0 1em; margin-top:1em;}
+.roll .item{width:100%;}
+.roll .item .item-list{width:100%; height:auto; margin:20px auto 0;}
+.roll .item .item-list img{width:4em; height:4em; margin:8px !important;}
+.roll .item .itemRight{float:none; width:auto; height:auto;}
+.roll .item .itemOne .itemRight{margin:0 10px 8px 5em;}
+.roll .item .itemtwo .itemRight{margin:0 4em 8px 10px;}
+
+.footer{display:none;}
+.footer2{display:block;}
